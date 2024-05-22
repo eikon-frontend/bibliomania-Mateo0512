@@ -1,17 +1,71 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bibliomania</title>
-    <link rel="stylesheet" href="scripts/star-rating.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- 🦊 Votre page ici -->
 
-    <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
-    <!-- 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibliomania</title>
+  <link rel="stylesheet" href="scripts/star-rating.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- 🦊 Votre page ici -->
+  <header>
+    <img class="couverture" src="img/Livre.png" alt="couverture du livre Saccage">
+    <div class="Donné">
+      <div class="Titre">
+        <p>TITRE : Saccage</p>
+      </div>
+      <div class="Auteurice">
+        <p>AUTEUR/RICE : Frederik Peeters</p>
+      </div>
+      <div class="Genre">
+        <p>GENRE : Roman Graphique</p>
+      </div>
+      <div class="Date">
+        <p>DATE DE PUBLICATION : 2019</p>
+      </div>
+    </div>
+
+  </header>
+
+  <div class="Description">
+    <h1 class="Titrediv">Description</h1>
+    <p class="Synoposis">Frederik Peeters est un animal insaisissable, et comme le prouve son parcours, jamais où on
+      pourrait
+      l’attendre; Saccage, son nouveau livre, le démontre une fois encore. Saccage, voilà bien un ouvrage qui défie
+      toute
+      forme de définition, de classification: entre livre d’images et bande dessinée, Saccage dépeint une épopée pleine
+      de
+      tourments, celle d’un homme (prophète? héraut de l’apocalypse?) qui traverse un monde dément, chaotique, baroque,
+      où
+      toute la folie – et l’histoire – de l’homme semble se télescoper, se mélanger, pour former un magma empli de
+      visions
+      fantasmagoriques, juxtaposant alors écho d’un enfer bien trop terrestre, jeu de références, et fresque
+      prémonitoire.Fable d’anticipation, allégorie hallucinée, Saccage se lit comme un poème graphique en forme de
+      constat pour le moins amer, et présente un monde en pleine déliquescence, sidérant comme un massacre, effrayant
+      comme un cauchemar – mais Saccage est bien plus qu’un délire visuel, c’est une véritable œuvre coup-de-poing,
+      incroyablement habitée par un artiste au sommet de son art, et les dessins sans texte (mais pas «muets»!) de
+      Frederik Peeters donnent alors bien plus à lire que nombre de romans ou d’essais.</p>
+  </div>
+  <div class="Commentaire">
+    <div class="Commentaire1"><img src="" alt="">
+      <p>user67143998</p>
+      <p>Très belle histoire !</p>
+      <p>3h</p>
+      <p>Répondre</p>
+    </div>
+    <div class="Commentaire2"><img src="" alt="">
+      <p>Marie_Anne74</p>
+      <p>La fin de l'histoire est superbe !</p>
+      <p>1j</p>
+      <p>Répondre</p>
+    </div>
+    <img class="menu" src="img/new menu.png" alt="menu">
+  </div>
+  <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
+  <!-- 
         <select class="star-rating" aria-label="Note utilisateur">
             <option value="">Select a rating</option>
             <option value="5">Excellent</option>
@@ -21,12 +75,20 @@
             <option value="1">Terrible</option>
         </select>
     -->
-    <!-- 💡 Script pour gérer le rating d'un livre -->
-    <script src="scripts/star-rating.min.js"></script>
-    <script>
-      var stars = new StarRating(".star-rating", {
-        tooltip: "Choisissez votre note",
-      });
-    </script>
-  </body>
+  <!-- 💡 Script pour gérer le rating d'un livre -->
+
+  <div>
+    <select class="star-rating" aria-label="Note utilisateur">
+      <option value="">Select a rating</option>
+      <option value="5">Excellent</option>
+      <option value="4">Very Good</option>
+      <option value="3">Average</option>
+      <option value="2">Poor</option>
+      <option value="1">Terrible</option>
+  </div>
+
+
+
+</body>
+
 </html>

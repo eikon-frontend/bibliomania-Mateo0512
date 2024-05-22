@@ -13,3 +13,82 @@
 }
 
 /* 🦊 Vos styles ici */
+.Titrediv {
+  justify-content: left;
+  color: aliceblue;
+}
+
+
+body {
+  background-color: #21272e;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+  padding: 0;
+
+  max-width: 390px;
+  text-align: center;
+
+
+}
+
+div {}
+
+p {
+  color: aliceblue;
+}
+
+.menu {
+  max-width: 430px;
+  margin-top: 100px;
+}
+
+.couverture {
+  justify-content: center;
+  max-width: 430px;
+}
+
+.Titre {
+  background-color: #475565;
+  justify-content: left;
+}
+
+.Auteurice {
+  background-color: #475565;
+
+}
+
+.Genre {
+  background-color: #475565;
+
+}
+
+.Date {
+  background-color: #475565;
+
+}
+
+.Description {
+  background-color: #475565;
+  margin-top: 50px;
+}
+
+.Commentaire {
+  background-color: #475565;
+  border-radius: 30px;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 430px;
+  max-height: 1192px;
+  margin: auto;
+}
